@@ -1,19 +1,11 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
-
+import './home.css'
 function Home() {
   return (
-    <Navbar>
-      <Navbar.Brand href="#home">Thumbnail Picker</Navbar.Brand>
-      <Navbar.Toggle />
-      <Navbar.Collapse className="justify-content-end">
-        <Navbar.Text>
-          Signed in as: <a href="#login">sojjyCodes</a>
-        </Navbar.Text>
-      </Navbar.Collapse>
-    </Navbar>
+    <div>
+      <h1 className="head">Home Page</h1>
+    </div>
   );
 }
 
 export default Home;
-A

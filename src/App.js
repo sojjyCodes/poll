@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
-import Home from './components/Home'
-import 
+import React from "react";
+import { Navbar, Button } from "react-bootstrap";
+import "./App.css";
+import Container from "./components/Container";
+
 function App() {
   return (
-    <Home />
+   <Container />
   );
 }
 
