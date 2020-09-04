@@ -7,7 +7,7 @@ function Container() {
   return (
     <div className="container">
       <div className="navigation-bar">
-        <Navbar className="navigation">
+      <Navbar fixed="top" >
           <Navbar.Brand href="#home">sojjy's Poll</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
@@ -17,6 +17,7 @@ function Container() {
           </Navbar.Collapse>
         </Navbar>
       </div>
+
       <div>
         <Home />
       </div>
