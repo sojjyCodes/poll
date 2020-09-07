@@ -4,6 +4,16 @@
 }
 
 .app {
-  color: rgb(44, 202, 250);
+  color: rgb(247, 0, 0);
   margin: 30px;
+}
+
+.box {
+  height: 35vh;
+  background-color: #a1a1a1;
+  width: 900px;
+  margin-bottom: 35px;
+  border-radius: 15px;
+  max-width: 500;
+  max-height: 1200px;
 }
