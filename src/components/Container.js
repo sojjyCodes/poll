@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import Home from "./Home";
 import "./container.css";
 function Container() {
@@ -9,14 +9,12 @@ function Container() {
         <Navbar.Brand href="#home">sojjy's Poll</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Text>
-            <a href="#login" style={{marginRight: "10px"}}>Login</a>
-          </Navbar.Text>
-          <Navbar.Text>
-            <a href="#signup">Sign Up</a>
-          </Navbar.Text>
-          {/*<Navbar.Text> Signed in as: <a href="#login">sojjyCodes</a>
-          </Navbar.Text>*/}
+          <Nav.Link href="#login" style={{marginRight: "10px"}}>Login
+          </Nav.Link>
+          <Nav.Link href="#signup">Sign Up
+          </Nav.Link>
+          {/*<Nav.Text> Signed in as: href="#login">sojjyCodes
+          </Nav.Text>*/}
         </Navbar.Collapse>
       </Navbar>
       <div className="component">
