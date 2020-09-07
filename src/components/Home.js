@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import Poll from "react-polls";
 import "./home.css";
 
-const pollQuestions = "Is react-polls useful?";
+const pollQuestions = "What is the best Javascript Framework?";
 const pollAnswers = [
-  { opiton: "Yes", votes: 8 },
-  { option: "No", votes: 2 },
+  { option: "React", votes: 8 },
+  { option: "Angular", votes: 2  },
+  { option: "Vuejs", votes: 2  },
+  { option: "Express", votes: 2  },
 ];
 export default class Home extends Component {
   state = {
@@ -28,7 +30,7 @@ export default class Home extends Component {
     return (
       <div className="app">
         <h1>Home Page</h1>
-        <Poll question={pollQuestions} answers={pollAnswers} onVote={this.handleVote} />
+        <Poll question={pollQuestions} answers={pollAnswers} onVote={this.handleVote} theme="purple" noStorage customStyles={{theme: "purple"}} />
       </div>
     );
   }
