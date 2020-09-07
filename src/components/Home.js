@@ -4,10 +4,10 @@ import "./home.css";
 
 const pollQuestions = "What is the best Javascript Framework?";
 const pollAnswers = [
-  { option: "React", votes: 8 },
-  { option: "Angular", votes: 2  },
-  { option: "Vuejs", votes: 2  },
-  { option: "Express", votes: 2  },
+  { option: "React", votes: 40 },
+  { option: "Angular", votes: 10 },
+  { option: "Vuejs", votes: 35 },
+  { option: "None", votes: 3 },
 ];
 export default class Home extends Component {
   state = {
@@ -30,7 +30,14 @@ export default class Home extends Component {
     return (
       <div className="app">
         <h1>Home Page</h1>
-        <Poll question={pollQuestions} answers={pollAnswers} onVote={this.handleVote} theme="purple" noStorage customStyles={{theme: "purple"}} />
+        <Poll
+          question={pollQuestions}
+          answers={pollAnswers}
+          onVote={this.handleVote}
+          theme="purple"
+          noStorage
+          customStyles={{ theme: "purple" }}
+        />
       </div>
     );
   }

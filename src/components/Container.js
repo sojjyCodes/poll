@@ -5,7 +5,7 @@ function Container() {
   return (
     <div className="app">
       <Navbar>
-        <Navbar.Brand href="#home">Thumbnail Picker</Navbar.Brand>
+        <Navbar.Brand href="#home">sojjy's Poll</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
