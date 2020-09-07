@@ -7,12 +7,15 @@ function Container() {
   return (
     <div className="container">
       <div className="navigation-bar">
-      <Navbar fixed="top" >
+        <Navbar fixed="top">
           <Navbar.Brand href="#home">sojjy's Poll</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
-              Signed in as: <a href="/login">sojjyCodes</a>
+              Signed in as:
+              <a href="/login" style={{color: "blue"}}>
+                sojjyCodes
+              </a>
             </Navbar.Text>
           </Navbar.Collapse>
         </Navbar>
