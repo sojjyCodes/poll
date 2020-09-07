@@ -8,9 +8,9 @@ function Home() {
     <div>
       <Card
         style={{
+          borderRadius: "10px",
+          margin: "30px",
           height: "30vh",
-          justifyContent: "center",
-          alignContent: "center",
           width: "850px",
           backgroundColor: "#a1a6a8",
         }}

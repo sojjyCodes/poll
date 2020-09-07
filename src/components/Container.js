@@ -10,7 +10,7 @@ function Container() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            <a href="#login">Login</a>
+            <a href="#login" style={{marginRight: "10px"}}>Login</a>
           </Navbar.Text>
           <Navbar.Text>
             <a href="#signup">Sign Up</a>
@@ -23,9 +23,7 @@ function Container() {
         <h1 style={{color: "rgb(44, 202, 250)"}}>Today's Poll</h1>
         <Home />
         <Home />
-        <Home />
-        <Home />
-        <Home />
+
       </div>
     </div>
   );
