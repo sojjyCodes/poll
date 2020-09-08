@@ -1,11 +1,20 @@
-import React from "react";
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { IoMdPodium } from "react-icons/io";
 import Home from "./Home";
 import "./container.css";
-import Switch from "react-bootstrap/esm/Switch";
+
+export function User() {
+  User = [{ name: "sojjy" }];
+}
+
 function Container() {
+  state = {
+    User: [...User],
+  };
+
+  const { state } = this.state;
   return (
     <div className="app">
       <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
@@ -15,12 +24,17 @@ function Container() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Nav variant="pills">
+          <Nav>
             <Nav.Link href="#login" style={{ marginRight: "10px" }}>
               Login
             </Nav.Link>
 
             <Nav.Link href="#signup">Sign Up</Nav.Link>
+            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                {this.state.name}
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
