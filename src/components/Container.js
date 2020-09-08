@@ -1,12 +1,13 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { IoMdPodium } from 'react-icons/io'
 import Home from "./Home";
 import "./container.css";
 function Container() {
   return (
     <div className="app">
       <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
-        <Navbar.Brand href="#home">sojjy's Poll</Navbar.Brand>
+        <Navbar.Brand href="#home">sojjy's Poll<IoMdPodium /></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav variant="pills">
@@ -20,7 +21,7 @@ function Container() {
         </Navbar.Collapse>
       </Navbar>
       <div className="component">
-        <h1 style={{ color: "rgb(44, 202, 250)" }}>Today's Poll</h1>
+        <h1 style={{ color: "rgb(44, 202, 250)" }}>Today's Poll <IoMdPodium /></h1>
         <Home />
         <Home />
       </div>
