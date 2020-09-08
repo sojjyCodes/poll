@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import { Card } from "react-bootstrap";
+import { Card, Button } from "react-bootstrap";
 import Poll from "react-polls";
 import "./home.css";
+import Result from "./Result";
 
 function Home() {
   return (
