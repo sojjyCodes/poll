@@ -5,7 +5,7 @@ import "./container.css";
 function Container() {
   return (
     <div className="app">
-      <Navbar>
+      <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
         <Navbar.Brand href="#home">sojjy's Poll</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
