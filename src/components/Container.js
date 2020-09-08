@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Navbar, Nav } from "react-bootstrap";
 import { IoMdPodium } from "react-icons/io";
 import Home from "./Home";
@@ -25,7 +26,7 @@ function Container() {
       </Navbar>
       <div className="component">
         <h1 style={{ color: "rgb(44, 202, 250)" }}>
-          Today's Poll <IoMdPodium />
+          Today's Selection <IoMdPodium />
         </h1>
         <Home />
         <Home />
