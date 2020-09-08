@@ -39,7 +39,8 @@ function Container() {
                 <Home />
             </div>
         </div>
-    );
+    );alias git commit --ammend="gc-a"
+
 }
 
 export default Container;
