@@ -2052,6 +2052,11 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
+animate.css@^3.7.0:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.7.2.tgz#e73e0d50e92cb1cfef1597d9b38a9481020e08ea"
+  integrity sha512-0bE8zYo7C0KvgOYrSVfrzkbYk6IOTVPNqkiHg2cbyF4Pq/PXzilz4BRWA3hwEUBoMp5VBgrC29lQIZyhRWdBTw==
+
 ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
@@ -8863,6 +8868,13 @@ react-overlays@^4.1.0:
     uncontrollable "^7.0.0"
     warning "^4.0.3"
 
+react-polls@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/react-polls/-/react-polls-1.2.0.tgz#4d2e9802efe7e83ee8b37ae3d1368f7bf7869675"
+  integrity sha512-qkPgkEGXJzCk8S5os47sS2iv6vjzEzYbPm9Als6kEdhXBHDJmkOXNNiXsjjyNI1xZDul8+RXY0C9hOtjkuZjDA==
+  dependencies:
+    animate.css "^3.7.0"
+
 react-router-bootstrap@^0.25.0:
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/react-router-bootstrap/-/react-router-bootstrap-0.25.0.tgz#5d1a99b5b8a2016c011fc46019d2397e563ce0df"
@@ -10141,6 +10153,11 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
+
+survey-react@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/survey-react/-/survey-react-1.8.0.tgz#e59a4552cf9631c7192df66a95950afdd97902c7"
+  integrity sha512-9AEQRsFRXiYCNuVdOdDEHXxc8ZyGI7jcncuVsi5b8exEwZBJPRgEqCltNoyPtJKHojv8iCFfbyFWLAWWtMeF1A==
 
 svg-parser@^2.0.0:
   version "2.0.4"
