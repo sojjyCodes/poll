@@ -15,6 +15,7 @@ function Home() {
           backgroundColor: "#a1a6a8",
         }}
       >
+        <Card.Title style={{ color: "green" }}>Web Design</Card.Title>
         <Card.Body>
           What is your prefered Javascript Framework for Web Development
         </Card.Body>
