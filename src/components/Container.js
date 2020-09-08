@@ -5,16 +5,8 @@ import { IoMdPodium } from "react-icons/io";
 import Home from "./Home";
 import "./container.css";
 
-export function User() {
-  User = [{ name: "sojjy" }];
-}
+export function User(props) {}
 
-function Container() {
-  state = {
-    User: [...User],
-  };
-
-  const { state } = this.state;
   return (
     <div className="app">
       <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
@@ -30,10 +22,8 @@ function Container() {
             </Nav.Link>
 
             <Nav.Link href="#signup">Sign Up</Nav.Link>
-            <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                {this.state.name}
-              </NavDropdown.Item>
+            <NavDropdown title="Signed in " id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">sojjyCodes</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
