@@ -6,8 +6,8 @@ import Home from "./Home";
 import "./container.css";
 
 function Container() {
-  const User = "sojjyCodes"
-  
+  const User = "sojjyCodes";
+
   return (
     <div className="app">
       <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
