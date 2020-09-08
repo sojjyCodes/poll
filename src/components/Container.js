@@ -25,14 +25,19 @@ function Container() {
                         >
                             Sign Up
                         </Nav.Link>
-                        <IoMdPerson
-                            style={{ color: "green", fontSize: "35px" }}
-                        />
-                        <NavDropdown id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#">
-                                Logout <IoMdLogOut />
-                            </NavDropdown.Item>
-                        </NavDropdown>
+                        <div>
+                            <IoMdPerson
+                                style={{ color: "green", fontSize: "35px" }}
+                            />
+                            <NavDropdown
+                                title="sojjyCodes"
+                                id="collasible-nav-dropdown"
+                            >
+                                <NavDropdown.Item href="#">
+                                    Logout <IoMdLogOut />
+                                </NavDropdown.Item>
+                            </NavDropdown>
+                        </div>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
