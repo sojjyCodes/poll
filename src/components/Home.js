@@ -17,7 +17,7 @@ function Home() {
         }}
       >
         <Card.Title style={{ color: "green" }}>Web Design</Card.Title>
-        <Card.Body>
+        <Card.Body style={{fontSize: "25px", fontWeight: "bold", fontStyle: "italic"}}>
           What is your prefered Javascript Framework for Web Development
         </Card.Body>
       </Card>
