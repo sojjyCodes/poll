@@ -18,11 +18,12 @@ function Container() {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#login" style={{ marginRight: "10px" }}>
+                        <Nav.Link href="#login" style={{  }}>
                             Login
                         </Nav.Link>
                         <Nav.Link href="#signup">Sign Up</Nav.Link>
-                        <NavDropdown title={User} id="collasible-nav-dropdown">
+                        <NavDropdown id="collasible-nav-dropdown">
+                            <IoMdPerson />
                             <NavDropdown.Item href="#">
                                 Logout <IoMdLogOut />
                             </NavDropdown.Item>
@@ -39,8 +40,7 @@ function Container() {
                 <Home />
             </div>
         </div>
-    );alias git commit --ammend="gc-a"
-
+    );
 }
 
 export default Container;
