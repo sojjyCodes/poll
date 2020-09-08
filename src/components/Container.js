@@ -23,7 +23,7 @@ function Container() {
             </Nav.Link>
             <Nav.Link href="#signup">Sign Up</Nav.Link>
             <NavDropdown title={User} id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="#">
                 Logout <IoMdLogOut />
               </NavDropdown.Item>
             </NavDropdown>
