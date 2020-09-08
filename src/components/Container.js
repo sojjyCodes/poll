@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import { IoMdPodium } from "react-icons/io";
+import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
 import Home from "./Home";
 import "./container.css";
 
-export function User(props) {}
-
+function Container() {
+  const User = "sojjyCodes"
+  
   return (
     <div className="app">
       <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
@@ -20,10 +21,11 @@ export function User(props) {}
             <Nav.Link href="#login" style={{ marginRight: "10px" }}>
               Login
             </Nav.Link>
-
             <Nav.Link href="#signup">Sign Up</Nav.Link>
-            <NavDropdown title="Signed in " id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">sojjyCodes</NavDropdown.Item>
+            <NavDropdown title={User} id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                Logout <IoMdLogOut />
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
