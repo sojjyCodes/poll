@@ -21,7 +21,7 @@ function Container() {
                         <Nav.Link href="#login">Login</Nav.Link>
                         <Nav.Link
                             href="#signup"
-                            style={{ paddingRight: "85px" }}
+                            style={{ marginRight: "85px" }}
                         >
                             Sign Up
                         </Nav.Link>
