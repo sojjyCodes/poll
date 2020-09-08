@@ -10,7 +10,7 @@ function Home() {
       <Card
         style={{
           borderRadius: "10px",
-          margin: "30px",
+          margin: "50px",
           height: "30vh",
           width: "850px",
           backgroundColor: "#a1a6a8",
