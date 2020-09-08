@@ -18,10 +18,13 @@ function Container() {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#login" style={{  }}>
-                            Login
+                        <Nav.Link href="#login">Login</Nav.Link>
+                        <Nav.Link
+                            href="#signup"
+                            style={{ paddingRight: "85px" }}
+                        >
+                            Sign Up
                         </Nav.Link>
-                        <Nav.Link href="#signup">Sign Up</Nav.Link>
                         <NavDropdown id="collasible-nav-dropdown">
                             <IoMdPerson />
                             <NavDropdown.Item href="#">
