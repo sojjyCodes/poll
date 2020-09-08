@@ -9,19 +9,18 @@ function Container() {
         <Navbar.Brand href="#home">sojjy's Poll</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Nav.Link href="#login" style={{marginRight: "10px"}}>Login
+          <Nav.Link href="#login" style={{ marginRight: "10px" }}>
+            Login
           </Nav.Link>
-          <Nav.Link href="#signup">Sign Up
-          </Nav.Link>
-          {/*<Nav.Text> Signed in as: href="#login">sojjyCodes
+          <Nav.Link href="#signup">Sign Up</Nav.Link>
+          {/*<Nav.Text> Signed in as: <Nav.Link href="#login">sojjyCodes</Nav.Link>
           </Nav.Text>*/}
         </Navbar.Collapse>
       </Navbar>
       <div className="component">
-        <h1 style={{color: "rgb(44, 202, 250)"}}>Today's Poll</h1>
+        <h1 style={{ color: "rgb(44, 202, 250)" }}>Today's Poll</h1>
         <Home />
         <Home />
-
       </div>
     </div>
   );
