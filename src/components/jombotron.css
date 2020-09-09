@@ -1,0 +1,21 @@
+.jumbo {
+    color: #ccc;
+    position: relative;
+    height: 86.5vh;
+}
+
+.app__container {
+    padding-right: 700px;
+    padding-top: 500px;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.text {
+    color: rgb(203, 77, 228);
+}

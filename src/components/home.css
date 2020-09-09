@@ -1,4 +1,5 @@
 * {
+    scroll-snap-align: start;
     justify-content: center;
     text-align: center;
 }

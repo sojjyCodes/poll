@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container } from "react-bootstrap";
 import Poll from "react-polls";
 import "./home.css";
 
@@ -29,14 +30,16 @@ export default class Result extends Component {
         const { pollAnswers } = this.state;
         return (
             <div className="app">
-                <Poll
-                    question={pollQuestions}
-                    answers={pollAnswers}
-                    onVote={this.handleVote}
-                    theme="purple"
-                    noStorage
-                    customStyles={{ theme: "purple" }}
-                />
+                <Container>
+                    <Poll
+                        question={pollQuestions}
+                        answers={pollAnswers}
+                        onVote={this.handleVote}
+                        theme="purple"
+                        noStorage
+                        customStyles={{ theme: "purple" }}
+                    />
+                </Container>
             </div>
         );
     }

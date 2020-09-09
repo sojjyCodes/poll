@@ -10,19 +10,19 @@ import Jombotron from "./components/Jombotron";
 
 function App() {
     return (
-        <div>
+        <div className="app">
             <Containers />
-            <Jombotron />
-            <Layout>
-                <Router>
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/home" component={Home} />
-                        <Route path="/result" component={Result} />
+
+            <Router>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/home" component={Home} />
+                    <Route path="/result" component={Result} />
+                    <Layout>
                         <Route component={NoMatch} />
-                    </Switch>
-                </Router>
-            </Layout>
+                    </Layout>
+                </Switch>
+            </Router>
         </div>
     );
 }
