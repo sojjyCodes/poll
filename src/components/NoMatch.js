@@ -1,5 +1,5 @@
 import React from "react";
-import "./nomatch.css";
+import "../App.css";
 
 function NoMatch() {
     return (

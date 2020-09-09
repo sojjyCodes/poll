@@ -36,7 +36,7 @@ function Containers() {
                             <Dropdown.Menu alignRight="false">
                                 <Dropdown.Item
                                     style={styles.drop_down}
-                                    href="/logout"
+                                    href="/login"
                                 >
                                     Logout <IoMdLogOut />
                                 </Dropdown.Item>
