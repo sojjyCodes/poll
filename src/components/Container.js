@@ -28,15 +28,12 @@ function Container() {
                             Sign Up
                         </Nav.Link>
 
-                        <Dropdown>
-                            <Dropdown.Toggle
-                                variant="success"
-                                id="dropdown-basic"
-                            >
-                                {User}
+                        <Dropdown drop="down">
+                            <Dropdown.Toggle variant="dark" id="dropdown-basic">
+                                <IoMdPerson />
                             </Dropdown.Toggle>
 
-                            <Dropdown.Menu>
+                            <Dropdown.Menu alignRight="false">
                                 <Dropdown.Item href="#logout">
                                     Logout <IoMdLogOut />
                                 </Dropdown.Item>
