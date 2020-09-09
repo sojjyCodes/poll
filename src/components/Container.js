@@ -19,7 +19,7 @@ export function PopUp() {
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>Warning</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     Are you sure you want to logout
@@ -36,6 +36,8 @@ export function PopUp() {
         </>
     );
 }
+
+render(<PopUp />);
 
 function Container() {
     const User = "sojjyCodes";
