@@ -28,11 +28,14 @@ function App() {
             <footer className="footer">
                 <p id="footer-text">
                     <center>
-                        Created with love by
-                        <span a href="https://github.com/sojjyCodes">
+                        Created With Love By
+                        <a
+                            href="https://github.com/sojjyCodes"
+                            className="link"
+                        >
                             {" "}
                             sojjyCodes
-                        </span>
+                        </a>{" "}
                         ©2020
                     </center>
                 </p>

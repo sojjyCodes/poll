@@ -9,7 +9,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-transform: capitalize;
+    text-transform: none;
     font-weight: bold;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: rgb(58, 139, 153);
@@ -27,4 +27,8 @@ footer:hover {
     bottom: 0;
     width: 100%;
     transition: all 0.4s;
+}
+
+.link {
+    color: #ffffff;
 }
