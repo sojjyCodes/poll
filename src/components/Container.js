@@ -10,7 +10,7 @@ function Container() {
     return (
         <div className="app">
             <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
-                <Navbar.Brand href="/result">
+                <Navbar.Brand href="#">
                     sojjy's Poll
                     <IoMdPodium />
                 </Navbar.Brand>
@@ -43,12 +43,12 @@ function Container() {
                 </Navbar.Collapse>
             </Navbar>
 
-            <div className="component">
+            {/* <div className="component">
                 <h1 style={{ color: "rgb(44, 202, 250)", marginTop: "40px" }}>
                     Today's Selection <IoMdPodium />
                 </h1>
                 <Home />
-            </div>
+            </div> */}
         </div>
     );
 }

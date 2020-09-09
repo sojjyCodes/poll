@@ -1,19 +1,17 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { IoMdPodium } from "react-icons/io";
 import { Card, Button, Image } from "react-bootstrap";
 import Poll from "react-polls";
 import "./home.css";
-import Result from "./Result";
 
 function Home() {
     return (
         <div>
-            <Router>
-                <Switch>
-                    <Route path="/result" component={ Result } />
-                    <Route component={} />
-                </Switch>
-            </Router>
+             <div className="component">
+                <h1 style={{ color: "rgb(44, 202, 250)", marginTop: "40px" }}>
+                    Today's Selection <IoMdPodium />
+                </h1>
+            </div>
             <Card
                 bg="info"
                 border="success"
