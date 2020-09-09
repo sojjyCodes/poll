@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Navbar, Nav, Dropdown } from "react-bootstrap";
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
 import Home from "./Home";
@@ -21,22 +20,25 @@ function Container() {
                         <Nav.Link href="#login">Login</Nav.Link>
                         <Nav.Link
                             href="#signup"
-                            style={{ marginRight: "85px" }}
+                            style={{ marginRight: "15px" }}
                         >
                             Sign Up
                         </Nav.Link>
-                        <IoMdPerson
-                            style={{
-                                marginTop: "7px",
-                                color: "cyan",
-                                fontSize: "25px",
-                            }}
-                        />
-                        <Dropdown.Menu id="collasible-nav-dropdown">
-                            <Dropdown.Menu.Item href="#">
-                                Logout <IoMdLogOut />
-                            </Dropdown.Menu.Item>
-                        </Dropdown.Menu>
+
+                        <Dropdown>
+                            <Dropdown.Toggle
+                                variant="success"
+                                id="dropdown-basic"
+                            >
+                                {User}
+                            </Dropdown.Toggle>
+
+                            <Dropdown.Menu>
+                                <Dropdown.Item href="#">
+                                    Logout <IoMdLogOut />
+                                </Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
