@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Dropdown } from "react-bootstrap";
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
 import Home from "./Home";
 import "./container.css";
@@ -32,11 +32,11 @@ function Container() {
                                 fontSize: "25px",
                             }}
                         />
-                        <NavDropdown id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#">
+                        <Dropdown.Menu id="collasible-nav-dropdown">
+                            <Dropdown.Menu.Item href="#">
                                 Logout <IoMdLogOut />
-                            </NavDropdown.Item>
-                        </NavDropdown>
+                            </Dropdown.Menu.Item>
+                        </Dropdown.Menu>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
