@@ -14,16 +14,14 @@ export function PopUp() {
     return (
         <>
             <Button variant="primary" onClick={handleShow}>
-                Launch demo modal
+                Warning
             </Button>
 
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Warning</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                    Are you sure you want to logout
-                </Modal.Body>
+                <Modal.Body>Are you sure you want to logout</Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Cancel
