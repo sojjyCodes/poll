@@ -17,10 +17,13 @@ function Container() {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#login">Login</Nav.Link>
+                        <Nav.Link href="#login" disabled>
+                            Login
+                        </Nav.Link>
                         <Nav.Link
                             href="#signup"
                             style={{ marginRight: "15px" }}
+                            disabled
                         >
                             Sign Up
                         </Nav.Link>
@@ -34,7 +37,7 @@ function Container() {
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu>
-                                <Dropdown.Item href="#">
+                                <Dropdown.Item href="#logout">
                                     Logout <IoMdLogOut />
                                 </Dropdown.Item>
                             </Dropdown.Menu>
