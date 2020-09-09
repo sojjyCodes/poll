@@ -1,10 +1,10 @@
 import React, { Component, useState } from "react";
-import { Navbar, Nav, Dropdown } from "react-bootstrap";
+import { Container, Navbar, Nav, Dropdown } from "react-bootstrap";
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
 import Home from "./Home";
 import "./container.css";
 
-function Container() {
+function Containers() {
     const User = "sojjyCodes";
 
     return (
@@ -51,4 +51,4 @@ function Container() {
     );
 }
 
-export default Container;
+export default Containers;
