@@ -10,18 +10,18 @@ function Container() {
     return (
         <div className="app">
             <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
-                <Navbar.Brand href="#">
+                <Navbar.Brand href="/">
                     sojjy's Poll
                     <IoMdPodium />
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav>
-                        <Nav.Link href="#login" disabled>
+                        <Nav.Link href="/login" disabled>
                             Login
                         </Nav.Link>
                         <Nav.Link
-                            href="#signup"
+                            href="/signup"
                             style={{ marginRight: "15px" }}
                             disabled
                         >
@@ -30,11 +30,16 @@ function Container() {
 
                         <Dropdown drop="down">
                             <Dropdown.Toggle variant="dark" id="dropdown-basic">
-                                <IoMdPerson />
+                                <IoMdPerson style={{ color: "#007CFF" }} />
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu alignRight="false">
-                                <Dropdown.Item href="#logout">
+                                <Dropdown.Item
+                                    style={{
+                                        color: "#5f54ff",
+                                    }}
+                                    href="/logout"
+                                >
                                     Logout <IoMdLogOut />
                                 </Dropdown.Item>
                             </Dropdown.Menu>
