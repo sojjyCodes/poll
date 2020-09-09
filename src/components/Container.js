@@ -1,41 +1,13 @@
 import React, { Component, useState } from "react";
-import { Navbar, Nav, Dropdown, Modal, Button } from "react-bootstrap";
+import { Navbar, Nav, Dropdown, Alert, Button } from "react-bootstrap";
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
 import Home from "./Home";
 import "./container.css";
 import { render } from "@testing-library/react";
 
-export function PopUp() {
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    return (
-        <>
-            <Button variant="primary" onClick={handleShow}>
-                Warning
-            </Button>
-
-            <Modal show={show} onHide={handleClose}>
-                <Modal.Header closeButton>
-                    <Modal.Title>Warning</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>Are you sure you want to logout</Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Cancel
-                    </Button>
-                    <Button variant="primary" onClick={handleClose}>
-                        Proceed
-                    </Button>
-                </Modal.Footer>
-            </Modal>
-        </>
-    );
+export function alert() {
+    alert("You just clicked a button")
 }
-
-render(<PopUp />);
 
 function Container() {
     const User = "sojjyCodes";
@@ -69,7 +41,7 @@ function Container() {
                             <Dropdown.Menu alignRight="false">
                                 <Dropdown.Item
                                     href="#logout"
-                                    onClick={() => PopUp()}
+                                    onClick={() =>Alert()}
                                 >
                                     Logout <IoMdLogOut />
                                 </Dropdown.Item>
