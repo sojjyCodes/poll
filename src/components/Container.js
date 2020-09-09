@@ -16,7 +16,7 @@ function Containers() {
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
-                    <Nav>
+                    <Nav className="ml-auto">
                         <Nav.Link href="/login" disabled>
                             Login
                         </Nav.Link>

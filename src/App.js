@@ -6,11 +6,13 @@ import Containers from "./components/Container";
 import Home from "./components/Home";
 import Result from "./components/Result";
 import NoMatch from "./components/NoMatch";
+import Jombotron from "./components/Jombotron";
 
 function App() {
     return (
         <div>
             <Containers />
+            <Jombotron />
             <Layout>
                 <Router>
                     <Switch>
