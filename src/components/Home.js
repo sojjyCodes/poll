@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { IoMdPodium } from "react-icons/io";
-import { Card, Button, Image, Container } from "react-bootstrap";
+import { Card, Button, Image, Container, Row } from "react-bootstrap";
 import Poll from "react-polls";
 import Jombotron from "./Jombotron";
 import "./home.css";
@@ -10,50 +10,52 @@ function Home() {
         <div>
             <Jombotron />
             <Container>
-                <div className="component">
-                    <h1
-                        style={{
-                            color: "rgb(44, 202, 250)",
-                            marginTop: "40px",
-                        }}
-                    >
-                        Today's Selection <IoMdPodium />
-                    </h1>
-                </div>
-                <div>
-                    <a href="/result">
-                        <Card
-                            bg="info"
-                            border="success"
+                <Row md>
+                    <div className="component">
+                        <h1
                             style={{
-                                borderRadius: "10px",
-                                margin: "50px",
-                                height: "30vh",
-                                width: "850px",
-                                backgroundColor: "white",
+                                color: "rgb(44, 202, 250)",
+                                marginTop: "40px",
                             }}
                         >
-                            <Card.Header style={{ color: "black" }}>
-                                Web Design
-                            </Card.Header>
-                            <Card.Body
+                            Today's Selection <IoMdPodium />
+                        </h1>
+                    </div>
+                    <div>
+                        <a href="/result">
+                            <Card
+                                bg="info"
+                                border="success"
                                 style={{
-                                    fontSize: "20px",
-                                    fontWeight: "bold",
-                                    fontStyle: "italic",
+                                    borderRadius: "10px",
+                                    margin: "50px",
+                                    height: "30vh",
+                                    width: "850px",
+                                    backgroundColor: "white",
                                 }}
                             >
-                                What is your prefered Javascript Framework for
-                                Web Development
-                            </Card.Body>
-                            <Card.Footer>
-                                <small className="text-muted">
-                                    Last updated 3 mins ago
-                                </small>
-                            </Card.Footer>
-                        </Card>
-                    </a>
-                </div>
+                                <Card.Header style={{ color: "black" }}>
+                                    Web Design
+                                </Card.Header>
+                                <Card.Body
+                                    style={{
+                                        fontSize: "20px",
+                                        fontWeight: "bold",
+                                        fontStyle: "italic",
+                                    }}
+                                >
+                                    What is your prefered Javascript Framework
+                                    for Web Development
+                                </Card.Body>
+                                <Card.Footer>
+                                    <small className="text-muted">
+                                        Last updated 3 mins ago
+                                    </small>
+                                </Card.Footer>
+                            </Card>
+                        </a>
+                    </div>
+                </Row>
             </Container>
         </div>
     );

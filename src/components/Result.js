@@ -30,7 +30,7 @@ export default class Result extends Component {
         const { pollAnswers } = this.state;
         return (
             <div className="app">
-                <Container style={{paddingTop: "100px", width: "500px"}}>
+                <Container style={{ paddingTop: "100px", width: "500px" }} md>
                     <Poll
                         question={pollQuestions}
                         answers={pollAnswers}
