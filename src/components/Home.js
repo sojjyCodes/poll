@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Card, Button, Image } from "react-bootstrap";
 import Poll from "react-polls";
 import "./home.css";
@@ -7,6 +8,12 @@ import Result from "./Result";
 function Home() {
     return (
         <div>
+            <Router>
+                <Switch>
+                    <Route path="/result" component={ Result } />
+                    <Route component={} />
+                </Switch>
+            </Router>
             <Card
                 bg="info"
                 border="success"
