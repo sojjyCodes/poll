@@ -56,7 +56,7 @@ const styles = {
     card: {
         borderRadius: "10px",
         margin: "50px",
-        height: "30vh",
+        height: "40vh",
         width: "850px",
     },
 
