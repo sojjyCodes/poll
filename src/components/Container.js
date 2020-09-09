@@ -42,13 +42,6 @@ function Container() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-
-            {/* <div className="component">
-                <h1 style={{ color: "rgb(44, 202, 250)", marginTop: "40px" }}>
-                    Today's Selection <IoMdPodium />
-                </h1>
-                <Home />
-            </div> */}
         </div>
     );
 }
