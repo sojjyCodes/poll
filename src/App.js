@@ -25,6 +25,11 @@ function App() {
                     </Layout>
                 </Switch>
             </Router>
+            <footer className="footer">
+                <p id="footer-text">
+                    <center>Created with love by sojjyCodes ©2020</center>
+                </p>
+            </footer>
         </div>
     );
 }

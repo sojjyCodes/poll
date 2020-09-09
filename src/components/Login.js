@@ -3,11 +3,15 @@ import { Container, Card, Button, Col, Row } from "react-bootstrap";
 
 function Login() {
     return (
-        <Container style={styles.container}>
-            <Card>
-                <Card.Body>Login Page</Card.Body>
-            </Card>
-        </Container>
+        <div>
+            <Container style={styles.container}>
+                <Card>
+                    <Card.Body>Login Page</Card.Body>
+                </Card>
+                
+            </Container>
+           
+        </div>
     );
 }
 
