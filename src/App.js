@@ -27,7 +27,14 @@ function App() {
             </Router>
             <footer className="footer">
                 <p id="footer-text">
-                    <center>Created with love by sojjyCodes ©2020</center>
+                    <center>
+                        Created with love by
+                        <span a href="https://github.com/sojjyCodes">
+                            {" "}
+                            sojjyCodes
+                        </span>
+                        ©2020
+                    </center>
                 </p>
             </footer>
         </div>
