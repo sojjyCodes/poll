@@ -9,7 +9,7 @@ function Containers() {
 
     return (
         <div className="app">
-            <Navbar variant="dark" style={{ backgroundColor: "#24292E" }}>
+            <Navbar variant="dark" style={styles.navbar}>
                 <Navbar.Brand href="/">
                     sojjy's Poll
                     <IoMdPodium />
@@ -22,7 +22,7 @@ function Containers() {
                         </Nav.Link>
                         <Nav.Link
                             href="/signup"
-                            style={{ marginRight: "15px" }}
+                            style={styles.nav_link}
                             disabled
                         >
                             Sign Up
@@ -30,14 +30,12 @@ function Containers() {
 
                         <Dropdown drop="down">
                             <Dropdown.Toggle variant="dark" id="dropdown-basic">
-                                <IoMdPerson style={{ color: "#007CFF" }} />
+                                <IoMdPerson style={styles.icon} />
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu alignRight="false">
                                 <Dropdown.Item
-                                    style={{
-                                        color: "#5f54ff",
-                                    }}
+                                    style={styles.drop_down}
                                     href="/logout"
                                 >
                                     Logout <IoMdLogOut />
@@ -50,5 +48,23 @@ function Containers() {
         </div>
     );
 }
+
+const styles = {
+    navbar: {
+        backgroundColor: "#24292E",
+    },
+
+    nav_link: {
+        marginRight: "15px",
+    },
+
+    icon: {
+        color: "#007CFF",
+    },
+
+    drop_down: {
+        color: "#5f54ff",
+    },
+};
 
 export default Containers;

@@ -30,7 +30,7 @@ export default class Result extends Component {
         const { pollAnswers } = this.state;
         return (
             <div className="app">
-                <Container style={{ paddingTop: "100px", width: "500px" }} md>
+                <Container style={styles.container} md>
                     <Poll
                         question={pollQuestions}
                         answers={pollAnswers}
@@ -44,3 +44,10 @@ export default class Result extends Component {
         );
     }
 }
+
+const styles = {
+    container: {
+        paddingTop: "100px",
+        width: "500px",
+    },
+};
