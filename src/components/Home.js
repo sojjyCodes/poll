@@ -31,7 +31,10 @@ function Home() {
                                     for Web Development
                                 </Card.Body>
                                 <Card.Footer>
-                                    <small className="text-muted" style={styles.card_foooter}>
+                                    <small
+                                        className="text-muted"
+                                        style={styles.card_foooter}
+                                    >
                                         Last updated 3 mins ago
                                     </small>
                                 </Card.Footer>
@@ -55,7 +58,6 @@ const styles = {
         margin: "50px",
         height: "30vh",
         width: "850px",
-        backgroundColor: "white",
     },
 
     card_body: {
@@ -64,7 +66,8 @@ const styles = {
     },
 
     card_foooter: {
-        fontSize: "15px"
-    }
+        fontSize: "15px",
+    },
 };
+
 export default Home;
