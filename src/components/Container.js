@@ -47,14 +47,14 @@ function Containers() {
                 </Navbar.Collapse>
             </Navbar>
 
-            <BackToTop
+            {/*<BackToTop
                 showOnScrollUp
                 showAt={100}
                 speed={1500}
                 easing="easeInOutQuint"
             >
                 <span>scroll up</span>
-            </BackToTop>
+            </BackToTop>*/}
         </div>
     );
 }
