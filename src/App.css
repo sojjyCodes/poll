@@ -1,6 +1,7 @@
-.app:::-webkit-scrollbar {
-    display: none;
+* {
+   scroll-snap-align: center;
 }
+
 #footer-text {
     color: white;
     padding: 10px;
