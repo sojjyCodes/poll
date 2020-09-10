@@ -1,4 +1,5 @@
 import React, { Component, useState } from "react";
+//import BackToTop from "react-back-to-top";
 import { Container, Navbar, Nav, Dropdown } from "react-bootstrap";
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
 import Home from "./Home";
@@ -45,6 +46,15 @@ function Containers() {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+
+            <BackToTop
+                showOnScrollUp
+                showAt={100}
+                speed={1500}
+                easing="easeInOutQuint"
+            >
+                <span>scroll up</span>
+            </BackToTop>
         </div>
     );
 }

@@ -5,7 +5,7 @@ function Login() {
     return (
         <div>
             <Container style={styles.container}>
-                <Card>
+                <Card stle={styles.card}>
                     <form>
                         <h3>Sign In</h3>
 
@@ -43,15 +43,13 @@ function Login() {
                             </div>
                         </div>
 
-                        <button
+                        <Button
+                            href="/"
                             type="submit"
                             className="btn btn-primary btn-block"
                         >
                             Submit
-                        </button>
-                        <p className="forgot-password text-right">
-                            Forgot <a href="#">password?</a>
-                        </p>
+                        </Button>
                     </form>
                 </Card>
             </Container>
@@ -62,6 +60,9 @@ function Login() {
 const styles = {
     container: {
         marginTop: "100px",
+    },
+    card: {
+        width: "10px",
     },
 };
 export default Login;
