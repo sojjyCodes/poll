@@ -1,0 +1,10 @@
+* {
+    scroll-snap-align: start;
+    justify-content: center;
+    text-align: center;
+}
+
+.app {
+    color: black;
+    margin: 0;
+}

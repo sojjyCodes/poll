@@ -1,0 +1,38 @@
+* {
+   scroll-snap-align: center;
+}
+
+#footer-text {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-transform: none;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(58, 139, 153);
+}
+
+footer:hover {
+    background-color: rgb(34, 156, 178);
+    padding: 0.5px;
+    color: #ffffff;
+    font-weight: bold;
+    animation: ease-in-out, width 0.35s ease-out;
+    cursor: default;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.link {
+    color: #ffffff;
+}
