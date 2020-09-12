@@ -36,7 +36,7 @@ export default class Result extends Component {
                         answers={pollAnswers}
                         onVote={this.handleVote}
                         theme="purple"
-                        noStorage // For development test only
+                        noStorage={true} // For development test only
                         customStyles={{ theme: "purple" }}
                     />
                 </Container>

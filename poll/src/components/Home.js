@@ -16,31 +16,24 @@ function Home() {
                             Today's Selection <IoMdPodium />
                         </h1>
                     </div>
-                    <div>
+
+                    <Card bg="info" border="success" style={styles.card}>
+                        <Card.Header style={{ color: "black" }}>
+                            Web Design
+                        </Card.Header>
                         <a href="/result">
-                            <Card
-                                bg="info"
-                                border="success"
-                                style={styles.card}
-                            >
-                                <Card.Header style={{ color: "black" }}>
-                                    Web Design
-                                </Card.Header>
-                                <Card.Body style={styles.card_body}>
-                                    What is your prefered Javascript Framework
-                                    for Web Development
-                                </Card.Body>
-                                <Card.Footer>
-                                    <small
-                                        className="text-muted"
-                                        style={styles.card_foooter}
-                                    >
-                                        Last updated 3 mins ago
-                                    </small>
-                                </Card.Footer>
-                            </Card>
+                            <Card.Body style={styles.card_body}>
+                                What is your prefered Javascript Framework for
+                                Web Development
+                            </Card.Body>
                         </a>
-                    </div>
+
+                        <Card.Footer>
+                            <small style={styles.card_foooter}>
+                                Last updated 3 mins ago
+                            </small>
+                        </Card.Footer>
+                    </Card>
                 </Row>
             </Container>
         </div>
@@ -56,17 +49,17 @@ const styles = {
     card: {
         borderRadius: "10px",
         margin: "50px",
-        height: "40vh",
-        width: "850px",
     },
 
     card_body: {
         fontSize: "28px",
         fontWeight: "bold",
+        textDecoration: "none",
     },
 
     card_foooter: {
         fontSize: "15px",
+        color: "white",
     },
 };
 
