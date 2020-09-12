@@ -18,4 +18,6 @@
 
 .text {
     color: rgb(203, 77, 228);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
+        cursive;
 }

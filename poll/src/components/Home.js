@@ -13,7 +13,7 @@ function Home() {
                 <Row md>
                     <div className="component">
                         <h1 style={styles.container}>
-                            Today's Selection <IoMdPodium style={styles.icon}/>
+                            Today's Selection <IoMdPodium />
                         </h1>
                     </div>
 
@@ -45,9 +45,7 @@ const styles = {
         color: "rgb(44, 202, 250)",
         marginTop: "40px",
     },
-    icon: {
-        fontSize: "20px",
-    },
+
     card: {
         borderRadius: "10px",
         margin: "50px",
