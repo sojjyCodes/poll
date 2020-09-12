@@ -5,7 +5,7 @@ import "./home.css";
 
 const pollQuestions = "What is the best Javascript Framework?";
 const pollAnswers = [
-    { option: "React", votes: 40 },
+    { option: "React.js", votes: 40 },
     { option: "Angular", votes: 10 },
     { option: "Vuejs", votes: 35 },
     { option: "None", votes: 3 },
