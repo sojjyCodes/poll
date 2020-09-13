@@ -9,10 +9,11 @@ import {
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
 import "./jombotron.css";
 
-function JumboNav() {
+export function JumboNav() {
+    const User = "sojjyCodes";
     return (
         <div>
-            <Navbar variant="dark" style={styles.navbar}>
+            <Navbar variant="dark" style={styles.navbar} sticky="bottom">
                 <Navbar.Brand href="/">
                     <span>sojjy's Poll</span> <IoMdPodium />
                 </Navbar.Brand>

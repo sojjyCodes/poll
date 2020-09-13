@@ -9,12 +9,17 @@ function Containers() {
 
     return (
         <div className="app">
-            <Navbar variant="dark" style={styles.navbar}>
+            <Navbar
+                collapseOnSelect
+                expand="lg"
+                variant="dark"
+                style={styles.navbar}
+            >
                 <Navbar.Brand href="/">
                     <span>sojjy's Poll</span> <IoMdPodium />
                 </Navbar.Brand>
                 <Navbar.Toggle />
-                <Navbar.Collapse className="justify-content-end">
+                <Navbar.Collapse className="mr-auto">
                     <Nav className="ml-auto">
                         <Nav.Link href="/login" disabled>
                             Login
