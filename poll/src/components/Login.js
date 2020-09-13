@@ -60,7 +60,8 @@ function Login() {
 const styles = {
     container: {
         marginTop: "100px",
-        width: "30px",
+        width: "100vh",
+        height: "100vh"
     },
     card: {
         width: "10px",
