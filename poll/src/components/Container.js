@@ -1,8 +1,7 @@
-import React, { Component, useState } from "react";
+import React from "react";
 //import BackToTop from "react-back-to-top";
-import { Container, Navbar, Nav, Dropdown } from "react-bootstrap";
+import { Navbar, Nav, Dropdown } from "react-bootstrap";
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
-import Home from "./Home";
 import "./container.css";
 
 function Containers() {
@@ -12,8 +11,7 @@ function Containers() {
         <div className="app">
             <Navbar variant="dark" style={styles.navbar}>
                 <Navbar.Brand href="/">
-                    sojjy's Poll
-                    <IoMdPodium />
+                    <span>sojjy's Poll</span> <IoMdPodium />
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
@@ -35,6 +33,13 @@ function Containers() {
                             </Dropdown.Toggle>
 
                             <Dropdown.Menu alignRight="false">
+                                <Dropdown.Item
+                                    style={styles.drop_down1}
+                                    disabled
+                                >
+                                    {" "}
+                                    Loged in as: {User}
+                                </Dropdown.Item>
                                 <Dropdown.Item
                                     style={styles.drop_down}
                                     href="/login"
@@ -71,7 +76,9 @@ const styles = {
     icon: {
         color: "#007CFF",
     },
-
+    drop_down1: {
+        color: "black",
+    },
     drop_down: {
         color: "#5f54ff",
     },
