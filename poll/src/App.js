@@ -7,7 +7,7 @@ import Home from "./components/Home";
 import Result from "./components/Result";
 import NoMatch from "./components/NoMatch";
 import Login from "./components/Login";
-import Jombotron from "./components/Jombotron";
+import { Jombotron, JumboNav } from "./components/Jombotron";
 
 function App() {
     return (
