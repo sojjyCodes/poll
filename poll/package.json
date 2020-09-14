@@ -17,12 +17,13 @@
         "react-router-bootstrap": "^0.25.0",
         "react-router-dom": "^5.2.0",
         "react-scripts": "3.4.3",
-        "survey-react": "^1.8.0"
+        "survey-react": "^1.8.0",
+        "watch": "^1.0.2"
     },
     "scripts": {
         "dev": "react-scripts dev --watch",
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts build --watch",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },

@@ -65,6 +65,7 @@ function Login() {
 const styles = {
     container: {
         marginTop: "100px",
+        borderMargin: "20px",
         width: "750px",
     },
 };
