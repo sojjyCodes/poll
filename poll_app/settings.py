@@ -59,7 +59,7 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'poll/build'),
-            os.path.join(BASE_DIR, "polls/templates")
+            os.path.join(BASE_DIR, "poll_app/templates/"),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -105,6 +105,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = 'username'
+EMAIL_HOST_PASSWORD = 'password'
+EMAIL_PORT = '2525'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/

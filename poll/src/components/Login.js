@@ -53,7 +53,7 @@ function Login() {
                             Submit
                         </Button>
                         <p className="text-left">
-                            Forgot <a href="/{}">password?</a>
+                            Forgot <a href="/verify">password?</a>
                         </p>
                     </form>
                 </Card>
