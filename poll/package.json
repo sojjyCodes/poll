@@ -20,6 +20,7 @@
         "survey-react": "^1.8.0"
     },
     "scripts": {
+        "dev": "react-scripts dev --watch",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
