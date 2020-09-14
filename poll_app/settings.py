@@ -105,10 +105,16 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# EMAIL_HOST = 'smtp.mailtrap.io'
+# EMAIL_HOST_USER = 'username'
+# EMAIL_HOST_PASSWORD = 'password'
+# EMAIL_PORT = '2525'
+
 EMAIL_HOST = 'smtp.mailtrap.io'
-EMAIL_HOST_USER = 'username'
-EMAIL_HOST_PASSWORD = 'password'
+EMAIL_HOST_USER = '0f15dd85264c56'
+EMAIL_HOST_PASSWORD = '6def23a1e06713'
 EMAIL_PORT = '2525'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
