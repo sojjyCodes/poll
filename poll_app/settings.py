@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'djangomix',
     'django.contrib.staticfiles',
     'polls',
     'rest_framework',
@@ -105,9 +106,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# EMAIL_HOST = 'smtp.mailtrap.io'
+# EMAIL_HOST_USER = 'username'
+# EMAIL_HOST_PASSWORD = 'password'
+# EMAIL_PORT = '2525'
+
 EMAIL_HOST = 'smtp.mailtrap.io'
-EMAIL_HOST_USER = 'username'
-EMAIL_HOST_PASSWORD = 'password'
+EMAIL_HOST_USER = 'aee01d42857dae'
+EMAIL_HOST_PASSWORD = '853f5207c834af'
 EMAIL_PORT = '2525'
 
 # Internationalization
@@ -136,7 +142,7 @@ STATICFILES_DIRS = [
 
 WEBPACK_LOADER = {
     'DEFAULT': {
-        'BUNDLE_DIR_NAME': 'frontend/',
-        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json')
-        }
+        'BUNDLE_DIR_NAME': 'dist/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+    }
 }

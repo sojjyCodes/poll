@@ -16,4 +16,4 @@ def sendmail(request):
         fail_silently=False,
     )
 
-    return HttpResponse('<h1>Mail successfully sent</h1>')
+    return HttpResponse()
