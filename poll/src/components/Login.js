@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Card, Button, Col, Row } from "react-bootstrap";
-
+import "./login.css";
 function Login() {
     return (
         <div>
@@ -12,6 +12,7 @@ function Login() {
                         <div className="form-group">
                             <label>Email address</label>
                             <input
+                                className="user-id"
                                 type="email"
                                 className="form-control"
                                 placeholder="Enter email"
@@ -21,6 +22,7 @@ function Login() {
                         <div className="form-group">
                             <label>Password</label>
                             <input
+                                className="password-id"
                                 type="password"
                                 className="form-control"
                                 placeholder="Enter password"
@@ -50,6 +52,9 @@ function Login() {
                         >
                             Submit
                         </Button>
+                        <p className="text-left">
+                            Forgot <a href="/{}">password?</a>
+                        </p>
                     </form>
                 </Card>
             </Container>
@@ -60,11 +65,7 @@ function Login() {
 const styles = {
     container: {
         marginTop: "100px",
-        width: "800px",
-        height: "90px",
-    },
-    card: {
-        width: "10px",
+        width: "750px",
     },
 };
 export default Login;
