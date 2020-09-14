@@ -129,3 +129,10 @@ STATICFILES_DIRS = [
      os.path.join(BASE_DIR, 'poll/build/static')
      
 ]
+
+WEBPACK_LOADER = {
+    'DEFAULT': {
+        'BUNDLE_DIR_NAME': 'frontend/',
+        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json')
+        }
+}
