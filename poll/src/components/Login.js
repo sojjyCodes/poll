@@ -12,20 +12,20 @@ function Login() {
                         <div className="form-group">
                             <label>Email address</label>
                             <input
-                                className="user-id"
+                                id="id"
                                 type="email"
                                 className="form-control"
-                                placeholder="Enter email"
+                                placeholder="example@mail.com"
                             />
                         </div>
 
                         <div className="form-group">
                             <label>Password</label>
                             <input
-                                className="password-id"
+                                id="id"
                                 type="password"
                                 className="form-control"
-                                placeholder="Enter password"
+                                placeholder="*************"
                             />
                         </div>
 
@@ -46,9 +46,9 @@ function Login() {
                         </div>
 
                         <Button
-                            href="/"
+                            href="#"
                             type="submit"
-                            className="btn btn-primary btn-block"
+                            className="submit-btn"
                         >
                             Submit
                         </Button>

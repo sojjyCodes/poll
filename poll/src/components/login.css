@@ -10,3 +10,35 @@
     margin-top: 15px;
     margin-left: 15px;
 }
+#id {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 80px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+    width: 500px;
+    transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+#password-id {
+    flex: 5;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-left: 80px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: sans-serif;
+    width: 500px;
+    transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+.submit-btn {
+    width: 120px;
+}
