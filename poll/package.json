@@ -21,16 +21,12 @@
         "survey-react": "^1.8.0",
         "watch": "^1.0.2"
     },
-    "watch": {
-        "test": "{src,test}/*.js"
-    },
-    "scripts": {
-        "build": "react-scripts build ",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "start": "./node_modules/.bin/webpack --config webpack.config.js",
-        "watch": "npm run watch"
-    },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
     "eslintConfig": {
         "extends": "react-app"
     },

@@ -4,8 +4,6 @@ from .serializers import PollSerializers
 
 class PollViewSet(viewsets.ModelViewSet):
     queryset = Poll.objects.all()
-    permissions_classes = [
-        permissions.AllowAny
-    ]
+    permissions_classes = []
 
 serializers_class = PollSerializers

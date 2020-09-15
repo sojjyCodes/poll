@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Poll from "react-polls";
 import "./home.css";
-
+import data from "./questions.json";
 const pollQuestions = "What is the best Javascript Framework?";
 const pollAnswers = [
-    { option: "React.js", votes: 40 },
+    { option: "Reactjs", votes: 48 },
     { option: "Angular", votes: 10 },
     { option: "Vuejs", votes: 35 },
     { option: "None", votes: 3 },

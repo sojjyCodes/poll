@@ -1,5 +1,4 @@
-{
-    "questions": [
+[
         {
             "id": 1,
             "sentence": "Who is the current president of Nigeria?",
@@ -27,4 +26,3 @@
             "correct_option": 23
         }
     ]
-}

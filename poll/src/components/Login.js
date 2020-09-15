@@ -3,11 +3,11 @@ import { Container, Card, Button, Col, Row } from "react-bootstrap";
 import "./login.css";
 function Login() {
     return (
-        <div>
+        <div className="app">
             <Container style={styles.container}>
                 <Card stle={styles.card}>
                     <form>
-                        <h3>Sign In</h3>
+                        <h3 className="head">Sign In</h3>
 
                         <div className="form-group">
                             <label>Email address</label>
@@ -45,15 +45,14 @@ function Login() {
                             </div>
                         </div>
 
-                        <Button
-                            href="#"
-                            type="submit"
-                            className="submit-btn"
-                        >
+                        <Button href="#" type="submit" className="submit-btn">
                             Submit
                         </Button>
                         <p className="text-left">
                             Forgot <a href="/verify">password?</a>
+                        </p>
+                        <p className="text-down">
+                            <a href="/signup">Don't have an account?</a>
                         </p>
                     </form>
                 </Card>
