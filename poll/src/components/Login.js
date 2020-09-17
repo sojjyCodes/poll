@@ -3,7 +3,7 @@ import { Container, Card, Button, Col, Row } from "react-bootstrap";
 import "./login.css";
 function Login() {
     return (
-        <div className="app">
+        <div className="App">
             <Container style={styles.container}>
                 <Card stle={styles.card}>
                     <form>
