@@ -7,16 +7,15 @@ senders_mail = "mail@mail.com"
 receivers_mail = "receiver@mail.com"
 
 def sendmail(request):
-
-    ver_code = '1234567890'
+    ver_code = '1234567890'   
     code = '5'
     for i in range(4):
         code += random.choice(ver_code)
-        
 
     send_mail(
         'Subject',
-        f'Hey {name}. \n'
+        f'Hey. \n \n \n \n'
+        
         'You just attempted to reset your password, this attempt requires further verification. \n'
         'To complete the sign in,' 
         'enter the verification code on your device. \n '

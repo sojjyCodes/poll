@@ -6,7 +6,7 @@ urlpatterns = [
     path('', TemplateView.as_view(template_name='index.html')),
     path('result/', TemplateView.as_view(template_name='index.html')),
     path('login/', TemplateView.as_view(template_name='index.html')),
-    path('api/', include('polls.urls')),
+    path('', include('polls.urls')),
     path('verify/', sendmail, name='sendmail'),
     path('admin/', admin.site.urls),
     

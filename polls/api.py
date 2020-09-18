@@ -2,10 +2,9 @@ from polls.models import Poll
 from rest_framework import viewsets, permissions
 from .serializers import PollSerializer
 
-class PollViewSet(viewsets.ModelViewSet):
-    queryset = Poll.objects.all()
-    permissions_classes = [
-        permissions.AllowAny
-    ]
+class UserSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = User
+        fields = ['url', 'username', 'email', 'is_staff']
 
 serializers_class = PollSerializer
