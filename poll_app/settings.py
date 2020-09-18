@@ -106,9 +106,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# EMAIL_HOST = 'smtp.mailtrap.io'
+# EMAIL_HOST_USER = 'username'
+# EMAIL_HOST_PASSWORD = 'password'
+# EMAIL_PORT = '2525'
+
 EMAIL_HOST = 'smtp.mailtrap.io'
-EMAIL_HOST_USER = 'username'
-EMAIL_HOST_PASSWORD = 'password'
+EMAIL_HOST_USER = 'a9d29240b8ffc5'
+EMAIL_HOST_PASSWORD = 'a5a48f6119a125'
 EMAIL_PORT = '2525'
 
 # Internationalization
