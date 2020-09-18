@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 import Poll from "react-polls";
 import "./home.css";
-import data from "./questions.json";
+
 const pollQuestions = "What is the best Javascript Framework?";
 const pollAnswers = [
     { option: "Reactjs", votes: 48 },
