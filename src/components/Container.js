@@ -1,13 +1,11 @@
-import React, { Component, useState } from "react";
+import React from "react";
 //import BackToTop from "react-back-to-top";
-import { Container, Navbar, Nav, Dropdown } from "react-bootstrap";
+import { Navbar, Nav, Dropdown } from "react-bootstrap";
 import { IoMdPodium, IoMdLogOut, IoMdPerson } from "react-icons/io";
-import Home from "./Home";
+// import Home from "./Home";
 import "./container.css";
 
 function Containers() {
-    const User = "sojjyCodes";
-
     return (
         <div className="app">
             <Navbar variant="dark" style={styles.navbar}>

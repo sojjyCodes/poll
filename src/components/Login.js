@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Card, Button, Col, Row } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
 
 function Login() {
     return (

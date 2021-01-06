@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { IoMdPodium } from "react-icons/io";
-import { Card, Button, Image, Container, Row } from "react-bootstrap";
-import Poll from "react-polls";
+import { Card, Container, Row } from "react-bootstrap";
+// import Poll from "react-polls";
 import Jombotron from "./Jombotron";
 import "./home.css";
 
@@ -35,7 +35,7 @@ function Home() {
                                         className="text-muted"
                                         style={styles.card_foooter}
                                     >
-                                        Last updated 3 mins ago
+                                        Last updated 30 mins ago
                                     </small>
                                 </Card.Footer>
                             </Card>
@@ -58,6 +58,7 @@ const styles = {
         margin: "50px",
         height: "40vh",
         width: "850px",
+        
     },
 
     card_body: {
