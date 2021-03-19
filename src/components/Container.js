@@ -10,8 +10,8 @@ function Containers() {
         <div className="app">
             <Navbar variant="dark" style={styles.navbar}>
                 <Navbar.Brand href="/">
-                    sojjy's Poll
-                    <IoMdPodium />
+                    sojjy's Poll <span />
+                    <IoMdPodium style={{ fontSize: "25px" }} />
                 </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
