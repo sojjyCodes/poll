@@ -1,0 +1,28 @@
+[
+        {
+            "id": 1,
+            "sentence": "Who is the current president of Nigeria?",
+            "wrong_options": [
+                "Efusetan Aniwura",
+                "Funmilayo Ransome Kuti",
+                "Flora Nwapa"
+            ],
+            "correct_option": "Muhammadu Buhari"
+        },
+        {
+            "id": 2,
+            "sentence": "Who is the CEO of Google?",
+            "wrong_options": [
+                "Joshua Simon",
+                "Willougby Francis",
+                "Richard Branson"
+            ],
+            "correct_option": "Sundar Pichai"
+        },
+        {
+            "id": 3,
+            "sentence": "How many states are there in Mexico?",
+            "wrong_options": [12, 34, 36],
+            "correct_option": 23
+        }
+    ]

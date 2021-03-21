@@ -5,7 +5,7 @@ import "./home.css";
 
 const pollQuestions = "What is the best Javascript Framework?";
 const pollAnswers = [
-    { option: "React", votes: 40 },
+    { option: "Reactjs", votes: 48 },
     { option: "Angular", votes: 10 },
     { option: "Vuejs", votes: 35 },
     { option: "None", votes: 3 },
@@ -36,7 +36,7 @@ export default class Result extends Component {
                         answers={pollAnswers}
                         onVote={this.handleVote}
                         theme="purple"
-                        noStorage
+                        noStorage={true} // For development test only
                         customStyles={{ theme: "purple" }}
                     />
                 </Container>

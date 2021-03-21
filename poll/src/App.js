@@ -7,11 +7,16 @@ import Home from "./components/Home";
 import Result from "./components/Result";
 import NoMatch from "./components/NoMatch";
 import Login from "./components/Login";
+<<<<<<< HEAD:src/App.js
+=======
+import { Jombotron, JumboNav } from "./components/Jombotron";
+>>>>>>> refs/remotes/origin/master:poll/src/App.js
 
 function App() {
     return (
         <div className="app">
             <Containers />
+            {/* <JumboNav /> */}
 
             <Router>
                 <Switch>

@@ -1,29 +1,36 @@
 import React from "react";
+<<<<<<< HEAD:src/components/Login.js
 import { Container, Card, Button } from "react-bootstrap";
 
+=======
+import { Container, Card, Button, Col, Row } from "react-bootstrap";
+import "./login.css";
+>>>>>>> refs/remotes/origin/master:poll/src/components/Login.js
 function Login() {
     return (
-        <div>
+        <div className="App">
             <Container style={styles.container}>
                 <Card stle={styles.card}>
                     <form>
-                        <h3>Sign In</h3>
+                        <h3 className="head">Sign In</h3>
 
                         <div className="form-group">
                             <label>Email address</label>
                             <input
+                                id="id"
                                 type="email"
                                 className="form-control"
-                                placeholder="Enter email"
+                                placeholder="example@mail.com"
                             />
                         </div>
 
                         <div className="form-group">
                             <label>Password</label>
                             <input
+                                id="id"
                                 type="password"
                                 className="form-control"
-                                placeholder="Enter password"
+                                placeholder="*************"
                             />
                         </div>
 
@@ -43,13 +50,15 @@ function Login() {
                             </div>
                         </div>
 
-                        <Button
-                            href="/"
-                            type="submit"
-                            className="btn btn-primary btn-block"
-                        >
+                        <Button href="#" type="submit" className="submit-btn">
                             Submit
                         </Button>
+                        <p className="text-left">
+                            Forgot <a href="/verify">password?</a>
+                        </p>
+                        <p className="text-down">
+                            <a href="/signup">Don't have an account?</a>
+                        </p>
                     </form>
                 </Card>
             </Container>
@@ -60,9 +69,8 @@ function Login() {
 const styles = {
     container: {
         marginTop: "100px",
-    },
-    card: {
-        width: "10px",
+        borderMargin: "50px",
+        width: "750px",
     },
 };
 export default Login;
